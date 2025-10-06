@@ -1,0 +1,42 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Maria Souza",
+      "email": "maria@email.com",
+      "senha": "123456"
+    },
+    {
+      "id": 2,
+      "nome": "João Silva",
+      "email": "joao@email.com",
+      "senha": "abcdef"
+    }
+  ],
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Empresa XPTO",
+      "cnpj": "12.345.678/0001-90",
+      "telefone": "(11) 99999-9999"
+    }
+  ],
+  "contatos": [
+    {
+      "id": 1,
+      "clienteId": 1,
+      "nome": "Carlos Pereira",
+      "email": "carlos@empresa.com",
+      "telefone": "(11) 98888-8888"
+    }
+  ],
+  "receitas": [
+    {
+      "id": 1,
+      "clienteId": 1,
+      "valor": 1500.00,
+      "data": "2025-10-06",
+      "descricao": "Serviço de consultoria"
+    }
+  ]
+}
